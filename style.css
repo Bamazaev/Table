@@ -1,0 +1,37 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 17px;
+}
+table{
+    width: 90%;
+    height: 90%;
+    border-collapse: collapse;
+}
+div{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td:first-child{
+    background-color: green;
+}
+.tr1 .td2{
+    background-color: yellow;
+}
+.td2{
+    background-color: yellow;
+}
+td:last-child{
+    background-color: orange;
+}
+.tr1:first-child{
+    background-color: orange;
+}
+tr .td8{
+    background-color: gray;
+}
+tr:last-child{
+    background-color: green;
+}
